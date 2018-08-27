@@ -1,0 +1,95 @@
+/* Custom styles - add your custom styles here
+========================================================================== */
+
+/* Added arter removal of class main-navigation__wrap */
+@media (min-width: 992px)
+   .hidden-lg-down {
+      padding-right: 148px;
+      padding-left: 0px;
+}
+
+
+.menu-upper{
+   color: var(--MENU_UPPER_COLOR);
+
+}
+
+
+.menu-lower{
+   color: var(--MENU_LOWER_COLOR);
+
+}
+
+
+.menu-lower li{
+   color: var(--MENU_LOWER_COLOR);
+   padding-right: 9px;
+
+}
+
+/* Make header visible completely */
+.align-items-end  .order-lg-2
+{
+   /* display:none; Reverse the changes on 27/08/2018 */
+}
+
+h4 {
+   font-size: 50px;
+   line-height: 50px;
+}
+
+
+.no-gutters > .col, .no-gutters > [class*="col-"] {
+   padding-right: 20px;
+   padding-left: 10px;
+}
+
+
+.services-icon-two-columns__item p {
+   margin-top: 14px; /* Also used in style_1.css file*/
+}
+
+
+
+.testimonials__header{
+   padding: 9px 0px 0px 14px;
+}
+
+
+
+ul.footer-ul{
+
+   font-size: 12px;
+   list-style-type: none;
+   list-style-position: outside;
+   margin: 0 0 22px 0px;
+}
+
+
+
+.hover-link  .footer{
+
+   text-transform: lowercase;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 0.04em;
+}
+
+.footer-div{
+   padding-right: 2px!important;
+   padding-left: 2px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
